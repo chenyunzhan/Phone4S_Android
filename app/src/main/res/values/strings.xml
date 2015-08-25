@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">设置</string>
+
+
+
+
+    <string name="app_name">青团</string>
+    <string name="app_tip">提示</string>
+    <!--tab menu-->
+    <string name="homepage">首页</string>
+    <string name="near">附近</string>
+    <string name="personal">我的</string>
+    <string name="more">更多</string>
+    <string name="dialog_msg">正在加载...</string>
+    <string name="et_search_hint">请输入关键字</string>
+    <string name="sale">特卖</string>
+    <string name="secondkill">秒杀</string>
+    <string name="limit">限量</string>
+    <string name="countdown">倒计时</string>
+    <string name="Yuan">元</string>
+    <string name="Total">总价：￥</string>
+    <string name="inage_Yuan">￥</string>
+    <string name="bindsonsess">绑定成功</string>
+    <string name="unbindsonsess">解绑成功</string>
+    <string name="accountbalance">账户余额:</string>
+    <string name="bindingphone">绑定手机:</string>
+    <string name="bindingphone1">绑定手机</string>
+    <string name="waitPayment">待付款订单</string>
+    <string name="nusedPurchase">未消费团购券</string>
+    <string name="integral">我的积分</string>
+    <string name="growUp">我的成长值</string>
+    <string name="qingtuanBalance">我的青团余额</string>
+    <string name="reservationOrder">订座单</string>
+    <string name="qingtuandyq">我的抵用券</string>
+    <string name="orderForm">团购订单</string>
+    <string name="refundQuery">退款查询</string>
+    <string name="modifyInformation">修改个人信息</string>
+    <string name="waitEvaluation">待评价&#160;&#160;(</string>
+    <string name="rightKuohao">)</string>
+    <string name="servicePhone">客服电话</string>
+    <string name="groupPurchase">团购电话</string>
+    <string name="edition">软件版本:</string>
+    <string name="webAddress">官网地址:</string>
+    <string name="microBlogAddress">官方微博:</string>
+    <string name="update">检查更新</string>
+    <string name="help">帮助</string>
+    <string name="join">加入我们</string>
+    <string name="feedback">意见反馈</string>
+    <string name="Cancellation">注销</string>
+    <string name="login">登录</string>
+    <string name="loginTips">您还没有登录呢~</string>
+    <string name="app_config_path_cache_images">/images</string>
+    <string name="mobileOnlineReservation">在线手机订座</string>
+    <string name="reservationTip">可提前30天预定座位,不用排队哦!</string>
+    <string name="hotRecommended">热门推荐</string>
+    <string name="todayNew">推荐新单</string>
+    <string name="saled">已售</string>
+    <string name="back">返回</string>
+    <string name="search">搜索</string>
+    <string name="currentCity">当前城市:</string>
+    <string name="change">切换</string>
+    <string name="lookOther">查看其他</string>
+    <string name="preferential">个优惠</string>
+    <string name="RMB">¥</string>
+    <string name="buyNow">立即购买</string>
+    <string name="recently">最近</string>
+    <string name="hot">热门</string>
+    <string name="all">全部</string>
+    <string name="newUserTip">立减20元</string>
+    <string name="supportReturn">支持随时退</string>
+    <string name="freeAppointment">免预约</string>
+    <string name="applyUser">适用商户</string>
+    <string name="groupBuyDetail">团购详情</string>
+    <string name="picDetail">图文详情</string>
+    <string name="buyNeedKnow">购买须知</string>
+    <string name="otherGroupBuy">其他团购</string>
+    <string name="friendLook">小伙伴们还看了</string>
+    <string name="citysel">城市选择</string>
+    <string name="unitPrice">单价</string>
+    <string name="totalPrice">总价</string>
+    <string name="count">数量</string>
+    <string name="yourPhoneNum">您的手机号码</string>
+    <string name="commitOrder">提交订单</string>
+    <string name="login_userName_hint">手机/邮箱/用户名</string>
+    <string name="password">密码</string>
+    <string name="forgetPassword">忘记密码?</string>
+    <string name="messageLogin">短信验证码登录</string>
+    <string name="otherLogin">第三方登录</string>
+    <string name="allOrder">全部订单</string>
+    <string name="unPay">未付款</string>
+    <string name="unConsumption">未消费</string>
+    <string name="toEvaluate">待评价</string>
+    <string name="refundList">退款单</string>
+    <string name="piece">张</string>
+    <string name="totalPrices">总价:</string>
+    <string name="refunded">已退款:</string>
+    <string name="pay">付款</string>
+    <string name="preferentialCode">抵用券/优惠代码</string>
+    <string name="payAway">还需支付</string>
+    <string name="payWay">支付方式</string>
+    <string name="payConfirm">确认支付</string>
+    <string name="orderConfirm">确认订单</string>
+    <string name="allClassification">全部分类</string>
+    <string name="sorting">默认排序</string>
+    <string name="inprocessofsort">正在排队中···</string>
+    <string name="sell">已售</string>
+    <string name="newUserDiscount">新用户立减</string>
+    <string name="tpye_newUser">新用户专享</string>
+    <string name="allOrders">全部订单</string>
+    <string name="nonPayment">未付款</string>
+    <string name="nonConsumption">未消费</string>
+    <string name="ordinaryWaitEvaluation">待评价</string>
+    <string name="refund">退款单子</string>
+    <string name="delete">删除</string>
+    <string name="getVerification">获取验证码</string>
+    <string name="register">注册</string>
+    <string name="inputPhone">请输入手机号码</string>
+    <string name="verificationCode">请输入验证码</string>
+    <string name="inputPassword">请输入密码</string>
+    <string name="inputPasswordtwo">请再次输入密码</string>
+    <string name="againInputPassword">请设置账户密码</string>
+    <string name="inputPhoneNum">请填写手机号码</string>
+    <string name="getVerCode">获取验证码</string>
+    <string name="bindingIphoneNum">绑定手机号</string>
+    <string name="updateIphoneNum">更换手机号</string>
+    <string name="collectGoodsAddress">收获地址管理</string>
+    <string name="synchronization">同步设置</string>
+    <string name="signOut">退出当前账号</string>
+    <string name="sendSecurityCode">发送验证码</string>
+    <string name="verificationAndLogin">验证并登录</string>
+    <string name="inputVer">请输入验证码</string>
+    <string name="quickPay">快捷下单</string>
+    <string name="sms">收不到短信？使用</string>
+    <string name="voice">
+        <u>语音验证</u>
+    </string>
+    <string name="shareIt">发送给朋友</string>
+    <string name="nullData">暂时没有更多数据...</string>
+    <string name="validity">有效期至:</string>
+    <string name="day">天</string>
+    <string name="hour">小时</string>
+    <string name="minute">分钟</string>
+    <string name="second">秒</string>
+    <string name="autoRefund">过期自动退</string>
+    <string name="customerPhoneNum">4000-333-178</string>
+    <string name="groupPhoneNum">029-87035182</string>
+    <string name="webAddressUrl">http://www.youngt.com</string>
+    <string name="weibo">http://e.weibo.com/u/1921766335</string>
+    <string name="commentsCount">个好评</string>
+    <string name="total">共</string>
+    <string name="commentCount">条评论</string>
+    <string name="balance">余额:</string>
+    <string name="buyTickets">团购券</string>
+    <string name="collect">收藏</string>
+    <string name="waitPayment1">待付款</string>
+    <string name="noConsumption">未消费</string>
+    <string name="waitAppraisal">待评价</string>
+    <string name="refundBill">退款单</string>
+    <string name="perCapita">人均:</string>
+    <string name="commentBegin">点评(共</string>
+    <string name="commentEnd">条)</string>
+    <string name="info">交通营业信息以及其他</string>
+    <string name="businessHours">营业时间:</string>
+    <string name="businessmanAddress">商家地址:</string>
+    <string name="transit">公交线路:</string>
+    <string name="sendOutagreement">同意协议并发送验证码</string>
+    <string name="agreement">《使用条款和协议》</string>
+    <string name="sendBegin">已发送(</string>
+    <string name="sendEnd">s)</string>
+    <string name="registerOk">完成注册</string>
+    <string name="pay_wechat">微信支付</string>
+    <string name="pay_alipay">支付宝钱包支付</string>
+    <string name="pay_umspay">银行卡支付</string>
+    <string name="pay_tenpay">财付通支付</string>
+    <string name="pay_bestpay">翼支付</string>
+    <string name="pay_unionpay">银联支付</string>
+    <string name="pay_lianlianpay">连连支付</string>
+    <string name="pay_quickpay">快捷支付</string>
+    <string name="recommendedDegree">推荐度</string>
+    <string name="commentList">消费评价</string>
+    <string name="noShopData">没有更多商品了</string>
+    <string name="noData">暂无更多数据</string>
+    <string name="consumption">个消费评价</string>
+    <string name="verCode">验证码</string>
+    <string name="next">下一步</string>
+    <string name="ok">确认</string>
+    <string name="phoneNum_Error">手机号码格式不正确</string>
+    <string name="findPwd">找回密码</string>
+    <string name="verError">验证码格式不正确</string>
+    <string name="confirmPwdError">两次密码输入不一致</string>
+    <string name="pwdTip">请输入6~18位密码</string>
+    <string name="setPwdSuccess">密码设置成功</string>
+    <string name="netError">网络异常,请检查网络连接</string>
+    <string name="loginFirst">请先登录</string>
+    <string name="title_tenpay">财付通支付</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="sendAgain">重新发送</string>
+    <string name="verAndLogin">验证并登录</string>
+    <string name="msgLogin">短信验证码登录</string>
+    <string name="voiceLogin">语音验证码</string>
+    <string name="notReceiveMsg">收不到短信?使用</string>
+    <!-- 加入我们   -->
+    <string name="subJoin">分站加盟</string>
+    <string name="tenants">商家入驻</string>
+    <string name="MemberGrade">会员等级:</string>
+    <string name="MemberGrowthValue">会员成长值:</string>
+    <string name="GrowthValueDel">成长值明细</string>
+    <string name="GrowthValueGrowth">成长值增长</string>
+    <string name="Grade">级别</string>
+    <string name="GrowthValue">成长值</string>
+    <string name="BuyMoney">消费金额</string>
+    <string name="getRule">消费1元增加一个成长值,不足一元按一元计算</string>
+    <string name="refundRule">退款时,会减去获得的成长值</string>
+    <string name="groupType">团购分类</string>
+    <string name="defaultSort">默认排序</string>
+    <string name="reservationHint">输入商户名/地点/菜系等</string>
+    <string name="findRestaurant">查找餐厅</string>
+    <string name="VIPReservation">尊贵订座</string>
+    <string name="canNotReservation">该时段不接受订位</string>
+    <string name="choiceConditions">可选预定条件</string>
+    <string name="inputShopName">请输入商户名</string>
+    <string name="thisIntegral">现有积分</string>
+    <string name="lookIntegralDel">查看积分明细</string>
+    <string name="getIntegral">签到得积分</string>
+    <string name="Integral">积分</string>
+    <string name="Sign">签到成功</string>
+    <string name="detail">详情</string>
+    <string name="transaction">交易明细</string>
+    <string name="time">时间</string>
+    <string name="IntegralDel">积分流水</string>
+    <string name="ModifyName">修改用户名</string>
+    <string name="ModifyPhone">修改绑定手机号</string>
+    <string name="ModifyPwd">修改密码</string>
+    <string name="ModifyInfo">修改个人信息</string>
+    <string name="YesModify">确认修改</string>
+    <string name="Prompt">用户名最多15个字符!</string>
+    <string name="nonull">输入内容不能为空</string>
+    <string name="oldpwd">请输入原始密码</string>
+    <string name="newpwd">请输入新密码</string>
+    <string name="renewpwd">确认密码</string>
+    <string name="username">用户名</string>
+
+    <!--  我的余额-->
+    <string name="user_moeny">用户余额</string>
+    <string name="myBalance">我的余额</string>
+    <string name="withdraw">提现</string>
+    <string name="withdraw_record">提现记录</string>
+    <string name="out_bankCard">转出到银行卡</string>
+    <string name="out_alipay">转出到支付宝</string>
+    <string name="tips_conten">温馨提示：签到金额或中奖金额不能提现</string>
+    <string name="withdraw_money">提现金额</string>
+    <string name="alipay_number">支付宝账号</string>
+    <string name="true_name">真实姓名</string>
+    <string name="bankcard_number">银行卡号</string>
+    <string name="belong_bank">所属银行</string>
+    <string name="holdcard_man">持卡人</string>
+
+
+    <string name="myReservation">我的订座</string>
+    <string name="sendno">发送失败</string>
+    <string name="oldpwdx">原密码</string>
+    <string name="newpwdx">新密码</string>
+    <string name="againnewpwdx">再次输入</string>
+    <string name="oldpwdnull">原始密码不能为空</string>
+    <string name="newpwdnull">新密码不能为空</string>
+    <string name="renewpwdnull">重复新密码不能为空</string>
+    <string name="towpwdno">两次新密码不一致</string>
+    <string name="wechat_version_low">微信版本不支持，请检查更新微信！</string>
+    <string name="nosupportpay_order">该订单不支持支付！</string>
+    <string name="personCount">人数</string>
+    <string name="yourName">您贵姓</string>
+    <string name="lady">女士</string>
+    <string name="man">先生</string>
+    <string name="reservationTips">如有附加要求,可填写,我们会尽量安排</string>
+    <string name="commitReservation">提交预定</string>
+    <string name="BuyingTips">无需苦等短信,直接出示青团券就能消费！</string>
+    <string name="allFood">全部美食</string>
+    <string name="orderByRange">离我最近</string>
+    <string name="map">地图</string>
+
+    <string name="buyTip">支付结果可能会有几秒延迟，你可以刷新结果或稍晚查看青团券</string>
+    <string name="refreshPayResult">刷新支付结果</string>
+    <string name="backBuy">返回团购</string>
+    <string name="lookingForQuestion">查看常见问题</string>
+    <string name="callCustomerPhoneNum">拨打客服电话 4000-333-178</string>
+    <string name="refunddetil">退款详情</string>
+    <string name="refundmoney">退款金额</string>
+    <string name="ReturnAccount">退回账户</string>
+    <string name="refundCourse">退款流程</string>
+    <string name="refundHelp">退款帮助</string>
+    <string name="examine">审核通过</string>
+    <string name="myorder">我的订单</string>
+    <string name="processing">处理中</string>
+    <string name="refundSuccess">退款成功</string>
+    <string name="order_cannot_refund">该订单不支持退款</string>
+    <string name="review_order">该订单已消费</string>
+    <string name="no_code">未填写验证码</string>
+    <string name="wrong_code">验证码填写不正确</string>
+    <string name="nuyours_name">姓名不能为空</string>
+    <string name="nuphone_number">电话不能为空</string>
+    <string name="nuQQnumber">QQ不能为空</string>
+    <string name="nuleave_message">留言不能为空</string>
+    <string name="nuaddress">地址不能为空</string>
+
+
+    <!-- 加入我们-->
+    <string name="yours_name">您的称呼</string>
+    <string name="phone_number">电话</string>
+    <string name="QQ">QQ</string>
+    <string name="leave_messages">留言</string>
+    <string name="belong_city">所属城市</string>
+    <string name="group_buying_message">团购信息</string>
+    <string name="join_code">验 证 码:</string>
+
+    <!-- 城市列表-->
+    <string name="hot_city">热门城市</string>
+    <string name="location">定位</string>
+    <string name="location_city">定位城市</string>
+    <string name="locationing">正在定位</string>
+    <string name="near_city">附近城市</string>
+    <string name="near_date">当前附近没有团单!</string>
+
+    <string name="change_city">城市切换</string>
+    <string name="station_malils">站内信</string>
+    <string name="unlocation_city">未定位到城市,请选择</string>
+    <string name="again_choose">重新选择</string>
+    <string name="recently_city">最近访问城市</string>
+    <string name="allReservation">可全部预定餐厅</string>
+    <string name="home">家</string>
+    <string name="reservation">订座</string>
+    <string name="reservationSuccess">订座成功</string>
+    <string name="person">人</string>
+    <!-- 第三方登陆-->
+    <string name="userid_found">用户信息已存在，正在跳转登录操作…</string>
+    <string name="logining">使用%s帐号登录中…</string>
+    <string name="auth_cancel">授权操作已取消</string>
+    <string name="auth_error">授权操作遇到错误</string>
+    <string name="auth_complete">授权成功，正在跳转登录操作…</string>
+    <string name="if_register_needed">如果您需要注册功能…</string>
+    <!-- 人人网-->
+    <string name="renren_sdk_submit">确定</string>
+    <string name="renren_sdk_cancel">取消</string>
+    <string name="renren_sdk_upload">上传</string>
+    <string name="users_getinfo_invoke">Renren.getUsersInfo</string>
+    <string name="renren_sdk_username">账号</string>
+    <string name="renren_sdk_password">密码</string>
+    <string name="renren_sdk_login">登录</string>
+    <string name="lookingForReservation">查看订座进度</string>
+    <string name="userNameError">姓名不能为空</string>
+    <string name="personCountError">人数未选择</string>
+    <string name="timeError">时间未选择</string>
+    <string name="lookAround">查看线路及周边</string>
+    <string name="del_order">删除订单</string>
+    <string name="orderOutOfDate">订座已过期</string>
+    <string name="orderSuccess">订座成功</string>
+    <string name="del_success">删除成功</string>
+    <string name="exit">再按一次退出程序</string>
+    <string name="settings">账户设置</string>
+    <string name="BindingPhone">手机号绑定</string>
+    <string name="Harvest">收获地址管理</string>
+    <string name="Synchronous">同步设置</string>
+    <string name="gologin">请先登录后再操作！</string>
+    <string name="head">头像</string>
+    <string name="BindingPrompt">验证码将发送到原手机上</string>
+    <string name="newphonenum">新手机号</string>
+    <string name="phonenum">手机号</string>
+    <string name="startupload">开始上传</string>
+    <string name="uploadsuccess">上传成功</string>
+    <string name="uploaderror">上传失败,请检查网络后再次尝试！</string>
+
+    <string name="needbindmobile">请先绑定手机号</string>
+    <string name="binding">已绑定</string>
+    <string name="unbinding">未绑定</string>
+    <string name="applyrefund">退款中..</string>
+    <string name="apply_for_refund">申请退款</string>
+    <string name="review">已使用</string>
+    <string name="Appraisal">评价</string>
+    <string name="Appraisa2">发表</string>
+    <string name="Appraisalsuccess">评价成功</string>
+    <string name="myTicket">我的青团券</string>
+    <string name="uploadhead">设置头像</string>
+    <string name="Album">相册</string>
+    <string name="Photograph">拍照</string>
+    <string name="picnull">请选择图片之后再上传</string>
+
+    <string name="sale_end">已结束</string>
+    <string name="OperationFailure">操作失败</string>
+    <string name="SubmitVerificationCode">提交验证码成功</string>
+    <string name="SendOutVerificationCode">验证码已经发送</string>
+    <string name="buy_success">购买成功</string>
+    <string name="more_paytype">更多支付方式</string>
+    <string name="theproductoverdue">该商品已过期！</string>
+    <string name="vouchers">抵用券使用说明</string>
+    <string name="packages">多套餐</string>
+    <string name="voucher_promptone">★ 每名用户只能用1张</string>
+    <string name="voucher_promtwo">★ 订单满</string>
+    <string name="voucher_promtwoone">元可用</string>
+    <string name="voucher_promthree">★ "网购"不参加本次活动</string>
+
+    <string name="clickget">点击领取</string>
+    <string name="congratulation">恭喜获得</string>
+    <string name="dyq">抵用券</string>
+    <string name="dyqcredit">4元-100元</string>
+    <string name="giveforqt">青团网送</string>
+    <string name="km">Km</string>
+    <string name="uploadheads">上传头像</string>
+    <string name="youngtBalance">您的青团余额</string>
+    <string name="balancepay">青团余额支付</string>
+
+
+    <string name="choose_city_content">当前选择城市为</string>
+    <string name="location_city_content">,是否切换至</string>
+    <string name="input_comment_hint">对本次消费满意吗跟小伙伴分享一下吧！</string>
+    <string name="score">分</string>
+    <string name="publish_comment">发表评论</string>
+
+    <!-- 图片浏览 -->
+    <string name="only_choose_num">超出可选图片张数</string>
+
+    <string name="invalidSD">sdcard无效或没有插入！</string>
+    <string name="photo">选择相册</string>
+    <string name="album">相册</string>
+    <string name="preview">预览</string>
+    <string name="unfinished">完成</string>
+    <string name="camera_cancel">取消</string>
+    <string name="no_photo">相册没有图片</string>
+
+    <string name="sm_item_fl_weibo">关注新浪微博</string>
+    <string name="sm_item_fl_tc">关注腾讯微博</string>
+    <string name="uploadImg">上传图片</string>
+    <string name="selImg">选取图片</string>
+    <string name="bank_money">提现金额为空</string>
+    <string name="null_bankcard_number">请输入正确的银行卡号</string>
+    <string name="null_belong_bank">所属银行为空</string>
+    <string name="alipay">支付宝</string>
+    <string name="null_alipay_number">支付宝账号为空</string>
+    <string name="withdraw_success">提现成功</string>
+
+    <string name="pay_result">支付结果通知</string>
+    <string name="pay_fail">支付失败</string>
+    <string name="pay_success">支付成功</string>
+    <string name="pay_cancel">用户取消了支付</string>
+    <string name="pay_running">支付结果确认中</string>
+    <string name="checkedresult">检查结果为：</string>
+    <string name="clicknext">松开查看下一页</string>
+    <string name="clicklast">松开查看上一页</string>
+
+    <string name="commentmin">评论内容至少6个字</string>
+    <string name="showcommentrt">请选择评分</string>
+    <string name="commentmax">评论内容最多输入500字</string>
+    <string name="uploaddata">正在上传数据~ 已上传:</string>
+    <string name="rttext">评分</string>
+    <string name="contenthelp">请输入6-500个字</string>
+
+    <string name="orderNum">订单券号</string>
+    <string name="refundContent">退还内容:</string>
+    <string name="refundExplain">(抵用卷金额无法退款)</string>
+    <string name="refundWay">现金退还方式:</string>
+    <string name="refundReason">退款原因:</string>
+    <string name="feedBack">更多不爽?必须吐槽!</string>
+    <string name="feedBackHint">我们会认真听取您的任何不满~</string>
+    <string name="passwords">密码 : </string>
+    <string name="money">现金 : </string>
+    <string name="atLeastOne">至少选一个</string>
+    <string name="refunding">退款</string>
+    <string name="twodimensionalCode_content">请选择你要分享的青团卷</string>
+    <string name="twodimensionalCode_isUsed">此青团卷已使用</string>
+
+
+    <!-- 下拉刷新，上拉加载更多 -->
+    <string name="pull_to_refresh_pull_label">下拉加载上一页</string>
+    <string name="pull_to_refresh_release_label">释放加载上一页</string>
+    <string name="pull_to_refresh_refreshing_label">加载\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">释放加载下一页</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载下一页</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="pull_to_refresh_update">最后更新:</string>
+
+    <string name="call_num">4000-998-433</string>
+
+    <string name="umspay_keyboard_clear">清除</string>
+    <string name="umspay_keyboard_number">数字</string>
+    <string name="umspay_keyboard_letter">字母</string>
+    <string name="umspay_keyboard_symbol">符号</string>
+    <string name="umspay_affirm">确认</string>
+    <string name="umspay_splash_version">版本2.0.1</string>
+    <string name="umspay_splash_info">中国银联股份有限公司版权所有</string>
+
+    <string name="vouchersuseinfo">抵用券使用说明</string>
+
+    <string name="order_num">订单编号</string>
+    <string name="buy_time">下单时间</string>
+    <string name="order_detail">订单详情</string>
+    <string name="order_remind_title">[退款当前进度]:</string>
+    <string name="order_right">&gt;&gt;</string>
+    <string name="order_remind">退款审核中,点击查看退款详情</string>
+    <string name="baidumap">您尚未安装百度地图app或app版本过低，点击确认跳转web地图？</string>
+    <string name="selectPictures">从相册中选取</string>
+    <string name="refundReasonError">请至少选择一项原因</string>
+    <string name="usernameError">请输入账号</string>
+    <string name="passwordError">请输入密码</string>
+    <string name="waitForVoice">请等待语音通知</string>
+
+    <string name="notsupportdyq">该订单不支持使用抵用券</string>
+
+    <!--银联支付-->
+    <string name="needinstallapk">完成购买需要安装银联支付控件，是否安装？</string>
+    <string name="errortip">错误提示</string>
+    <string name="tip">提示</string>
+    <string name="confirm">确定</string>
+    <string name="getTN">正在努力的获取交易流水号,请稍候...</string>
+
+    <string name="loadmoreforcoupon">查看更多团购券号</string>
+    <string name="pay_exception">支付异常，请重新支付</string>
+    <string name="pay_tip_alipay">推荐支付宝用户使用</string>
+    <!--<string name="pay_tip_wechat">推荐安装微信5.0以上版本使用</string>-->
+    <string name="pay_tip_wechat">推荐微信用户使用</string>
+    <string name="pay_tip_union">支持储蓄卡、信用卡，无需开通网银</string>
+    <string name="pay_tip_other">支持储蓄卡、信用卡</string>
+
+    <string name="upgradeTips">更新提示</string>
+    <string name="notstarted">未开始</string>
+    <string name="ending">已结束</string>
+    <string name="getLocation">正在获取您的位置信息，请稍等…</string>
+    <string name="locationFailed">无法获取到您的位置信息</string>
+
+    <string name="newUser">新用户专享</string>
+    <string name="limitProduct">每人限购</string>
+    <string name="part">份</string>
+    <string name="anonymous">匿名用户</string>
+    <string name="salebuyfail">抢购失败！</string>
+
+    <string name="agreementUpdate">同意</string>
+    <string name="agreementUpdateDownLoad">下载安装</string>
+    <string name="disagreementUpdate">不同意</string>
+    <string name="start">从这里开始</string>
+    <string name="end">到这里结束</string>
+
+    <string name="newUsers">新用户</string>
+    <string name="VIP">专享</string>
+    <string name="newUserIntroduce">吃喝玩乐超低价!</string>
+    <string name="branchList">分店列表</string>
+    <string name="updateTip">更新</string>
+</resources>
+

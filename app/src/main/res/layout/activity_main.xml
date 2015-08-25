@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.cloud.phone4s.common.IndexViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vp_viewpage"
+        android:layout_weight="1"
+        android:background="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/t98999b"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/tf1f4f4"
+        android:padding="@dimen/dim10">
+
+        <LinearLayout
+            android:id="@+id/ll_homepage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_homepage"
+                android:layout_width="@dimen/dim40"
+                android:layout_height="@dimen/dim40"
+                android:background="@drawable/bottom_menu_tuan1"/>
+
+            <TextView
+                android:id="@+id/tv_homepage"
+                android:text="@string/homepage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim10"
+                android:textColor="@color/t4baaaa"
+                android:textSize="@dimen/dim24"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_near"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_near"
+                android:layout_width="@dimen/dim40"
+                android:layout_height="@dimen/dim40"
+                android:background="@drawable/bottom_menu_fujin"/>
+
+            <TextView
+                android:id="@+id/tv_near"
+                android:text="@string/near"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim10"
+                android:textColor="@color/t757676"
+                android:textSize="@dimen/dim24"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sale"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_sale"
+                android:layout_width="@dimen/dim40"
+                android:layout_height="@dimen/dim40"
+                android:background="@drawable/bottom_menu_sale"/>
+
+            <TextView
+                android:id="@+id/tv_sale"
+                android:text="@string/sale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim10"
+                android:textColor="@color/t757676"
+                android:textSize="@dimen/dim24"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_personal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_personal"
+                android:layout_width="@dimen/dim40"
+                android:layout_height="@dimen/dim40"
+                android:background="@drawable/bottom_menu_mine"/>
+
+            <TextView
+                android:id="@+id/tv_personal"
+                android:text="@string/personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim10"
+                android:textColor="@color/t757676"
+                android:textSize="@dimen/dim24"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
