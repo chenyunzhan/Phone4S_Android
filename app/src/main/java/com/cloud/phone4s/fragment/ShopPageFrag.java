@@ -13,7 +13,7 @@ import com.cloud.phone4s.common.ActionBarView;
 /**
  * Created by cloud on 15/8/24.
  */
-public class HomePageFrag extends Fragment {
+public class ShopPageFrag extends Fragment {
 
     private ActionBarView actionBarRoot;
     View view;
@@ -30,7 +30,7 @@ public class HomePageFrag extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.frag_home, container, false);
+        view = inflater.inflate(R.layout.frag_shop, container, false);
         initView();
 //        menuList = (ListView) view.findViewById(R.id.menu_list);
 //        menuList.setAdapter(adapter);
@@ -40,7 +40,7 @@ public class HomePageFrag extends Fragment {
 
     public void initView() {
         actionBarRoot = (ActionBarView) view.findViewById(R.id.actionBarRoot);
-        actionBarRoot.setTitleText(getResources().getString(R.string.homepage));
+        actionBarRoot.setTitleText(getResources().getString(R.string.shop));
     }
 
 }

@@ -15,7 +15,9 @@ import android.widget.TextView;
 
 import com.cloud.phone4s.adapter.FragAdapter;
 import com.cloud.phone4s.common.IndexViewPager;
+import com.cloud.phone4s.fragment.CartPageFrag;
 import com.cloud.phone4s.fragment.HomePageFrag;
+import com.cloud.phone4s.fragment.ShopPageFrag;
 
 import java.util.ArrayList;
 
@@ -26,20 +28,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private LinearLayout ll_homepage;
     private LinearLayout ll_near;
     private LinearLayout ll_personal;
-    private LinearLayout ll_sale;
     private ImageView iv_homepage;
     private ImageView iv_near;
     private ImageView iv_personal;
-    private ImageView iv_sale;
     private TextView tv_homepage;
     private TextView tv_near;
     private TextView tv_personal;
-    private TextView tv_sale;
 
     HomePageFrag homePageFrag;
-    HomePageFrag nearFrag;
-    HomePageFrag personalFrag;
-    HomePageFrag activeFrag;
+    ShopPageFrag shopPageFrag;
+    CartPageFrag cartPageFrag;
 
 
     @Override
@@ -60,16 +58,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ll_near.setOnClickListener(this);
         ll_personal = (LinearLayout) findViewById(R.id.ll_personal);
         ll_personal.setOnClickListener(this);
-        ll_sale = (LinearLayout) findViewById(R.id.ll_sale);
-        ll_sale.setOnClickListener(this);
         iv_homepage = (ImageView) findViewById(R.id.iv_homepage);
         iv_near = (ImageView) findViewById(R.id.iv_near);
         iv_personal = (ImageView) findViewById(R.id.iv_personal);
-        iv_sale = (ImageView) findViewById(R.id.iv_sale);
         tv_homepage = (TextView) findViewById(R.id.tv_homepage);
         tv_near = (TextView) findViewById(R.id.tv_near);
         tv_personal = (TextView) findViewById(R.id.tv_personal);
-        tv_sale = (TextView) findViewById(R.id.tv_sale);
         //初始化viewpage
         initViewPage();
     }
@@ -77,14 +71,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void initViewPage() {
         fragments = new ArrayList<>();
         homePageFrag = new HomePageFrag();
-        nearFrag = new HomePageFrag();
-        personalFrag = new HomePageFrag();
-        activeFrag = new HomePageFrag();
+        shopPageFrag = new ShopPageFrag();
+        cartPageFrag = new CartPageFrag();
 
         fragments.add(homePageFrag);
-        fragments.add(nearFrag);
-        fragments.add(activeFrag);
-        fragments.add(personalFrag);
+        fragments.add(shopPageFrag);
+        fragments.add(cartPageFrag);
 
         FragmentManager manager = getSupportFragmentManager();
         fragAdapter = new FragAdapter(manager, fragments);
@@ -115,12 +107,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         iv_homepage.setBackgroundResource(R.drawable.bottom_menu_tuan);
         iv_near.setBackgroundResource(R.drawable.bottom_menu_fujin);
         iv_personal.setBackgroundResource(R.drawable.bottom_menu_mine);
-        iv_sale.setBackgroundResource(R.drawable.bottom_menu_sale);
 
         tv_homepage.setTextColor(getResources().getColor(R.color.t757676));
         tv_near.setTextColor(getResources().getColor(R.color.t757676));
         tv_personal.setTextColor(getResources().getColor(R.color.t757676));
-        tv_sale.setTextColor(getResources().getColor(R.color.t757676));
         switch (status) {
             case 0:
                 iv_homepage.setBackgroundResource(R.drawable.bottom_menu_tuan1);
@@ -131,10 +121,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 tv_near.setTextColor(getResources().getColor(R.color.t4baaaa));
                 break;
             case 2:
-                iv_sale.setBackgroundResource(R.drawable.bottom_menu_sale1);
-                tv_sale.setTextColor(getResources().getColor(R.color.t4baaaa));
-                break;
-            case 3:
                 iv_personal.setBackgroundResource(R.drawable.bottom_menu_mine1);
                 tv_personal.setTextColor(getResources().getColor(R.color.t4baaaa));
                 break;
@@ -177,16 +163,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 setCheck(1);
                 vp_viewpage.setCurrentItem(1);
                 break;
-            case R.id.ll_sale:
+            case R.id.ll_personal:
                 //更多
                 setCheck(2);
                 vp_viewpage.setCurrentItem(2);
-                break;
-            case R.id.ll_personal:
-                //我的
-                setCheck(3);
-                // 每次点击个人中心刷新用户数据
-                vp_viewpage.setCurrentItem(3);
                 break;
         }
     }

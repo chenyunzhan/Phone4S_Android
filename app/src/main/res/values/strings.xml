@@ -5,12 +5,12 @@
 
 
 
-    <string name="app_name">青团</string>
+    <string name="app_name">11111</string>
     <string name="app_tip">提示</string>
     <!--tab menu-->
     <string name="homepage">首页</string>
-    <string name="near">附近</string>
-    <string name="personal">我的</string>
+    <string name="shop">4S店</string>
+    <string name="buy_cart">购物车</string>
     <string name="more">更多</string>
     <string name="dialog_msg">正在加载...</string>
     <string name="et_search_hint">请输入关键字</string>
